@@ -8,6 +8,7 @@ class Artist
   end
 
   def add_song(name)
+    @songs << song
   end
 
 end
