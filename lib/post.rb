@@ -8,7 +8,7 @@ class Post
 
   def author_name()
 
-    if self.author.name 
+    if self.author
       return self.author.name
     end
 
